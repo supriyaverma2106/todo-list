@@ -1,0 +1,61 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+}
+
+.container {
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.input-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-box > input {
+    padding: 8px;
+    outline: none;
+    border: 1px solid red;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.input-box > button {
+    padding: 8px 12px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.tasks-list {
+    width: 50%;
+    margin-top: 16px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.task > button,
+.task > input {
+    cursor: pointer;
+}
+
+.task-text {
+    flex: 1;
+    margin: 0 4px;
+}
+
+.completed-task-text {
+    text-decoration: line-through;
+}
